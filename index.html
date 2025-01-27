@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+          
+    
+        }
+        .container{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 20px;
+          
+            
+          
+
+      
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+           
+        
+        }
+        .class{
+width: 500px;
+padding: 10px;
+border-radius: 5px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+        }
+        @media (max-width:768px) {
+            .class{
+                width: 300px;
+            }
+            
+        }
+        #submit{
+            padding: 10px;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 50px;
+            background-color: bisque;
+        }
+        #submit:hover{
+            background-color: yellow;
+            border-radius: 10px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="container">
+    <form action="">
+      <h4 > <u> Fill your Register details </u></h4>
+        <input type="text" placeholder="Enter-username" class="class"> <br>
+        <input type="email" placeholder="Enter-email" class="class"> <br>
+        <input type="password" placeholder="password" class="class"><br>
+        <input type="password" placeholder=" confirm-password" class="class"><br>
+        
+        <input type="number" placeholder=" Cell:1234XXXXXX" class="class"> <br> 
+        <label for="">Country</label> <br>
+        <input type="text" readonly value="India" class="class"> <br> 
+        <label for=""> <u>state</u></label> <br>
+        <input type="text" value="Telangana" class="class"> <br> 
+        <label for=""> <u>Select gender</u></label> <br> <hr>
+        <label for="">Male</label> 
+       <input type="radio" name="gender" id="male" value="gender"> <br>
+       <label for="">female</label>  
+       <input type="radio" name="gender" id="male" value="gender"> <br>
+       <label for="">Others</label>  
+       <input type="radio" name="gender" id="male" value="gender"> <br> <hr>
+       <label for=""> <u>upload ur resume</u></label> <br>
+       <input type="file" placeholder="Upload resume"><br> <hr>
+       <label for=""><u>Date-of-Birth</u></label> <br>
+       <input type="date" placeholder="entername"> <br><hr>
+
+      
+       
+<label for=""> <u>Enter-fav-color </u></label> <br>
+<input type="color"> <br> <hr>
+<label for=""> <u>choose ur favs </u></label> <br>
+<label for=""> Apple</label>
+<input type="checkbox" name="Apple"> <br>
+<label for=""> orange</label>
+<input type="checkbox" name="Apple"> <br>
+<label for="">Pineapple</label>
+<input type="checkbox" name="Apple"> <br> <hr>
+<u>Languages-known</u> <br>
+<label for="">HTML</label>
+<input type="range"> <br>
+<label for="">CSS</label>
+<input type="range"> <br>
+
+<label for="">JAVASCRIPT</label> 
+<input type="range">  <br><hr>
+<label for=""><u> Upload Git-URL</u></label>
+<input type="URL" class="class"> <br>
+<label for=""> <u>Upload linkedin-URL </u></label>
+<input type="URL" class="class"> <br><br>
+<input type="checkbox">
+<label for=""> terms and conditions </label> <br>
+<button id="submit"> submit</button>
+<button id="submit"> reset</button>
+
+
+
+
+
+        
+    </form>
+</div>
+</div>
+</body>
+</html>
